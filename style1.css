@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif, Helvetica;
+    background-color: #e6e6e6;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    border: 1px solid gainsboro;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 24px 25px;
+    text-decoration: none;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 50px;
+    font-weight: sans-serif;
+    font-family: 'comic sans-ms';
+    color: #354f6b;
+}
+
+h2 {
+    font-family: 'comic sans-mf';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #354f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+img {
+    background-image: url(img.jpg);
+    background-color: #eaeaea;
+    background-size: cover;
+    border-radius: 100px;
+    width: 500px;
+    height: 580px;
+    margin: 0 auto;
+    border:  1px solid #eaeaea;
+
+}
+
